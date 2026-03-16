@@ -1,0 +1,17 @@
+{
+  "name": "@autonomous-toaster/deepwiki-skill",
+  "version": "1.0.0",
+  "description": "Search 300+ indexed repositories for documentation and API references - pi skill package",
+  "keywords": ["pi-package", "skill", "documentation", "deepwiki", "repositories"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autonomous-toaster/voidm-pi-extension"
+  },
+  "pi": {
+    "skills": ["./SKILL.md"]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
